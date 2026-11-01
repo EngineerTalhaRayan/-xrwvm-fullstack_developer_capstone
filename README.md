@@ -1,5 +1,7 @@
-This project focuses on developing a complete booking system for Little Lemon using MySQL, Python, and Tableau. It includes designing a relational database, creating tables and relationships, and implementing stored procedures to manage bookings efficiently.
+During the development of SafeVault, I identified several security vulnerabilities, including SQL injection, Cross-Site Scripting (XSS), insufficient input validation, and improper access control.
 
-The database includes the required procedures: GetMaxQuantity(), ManageBooking(), UpdateBooking(), AddBooking(), and CancelBooking(). Python is used to connect to the MySQL database and execute booking operations, while Tableau is used to analyze the provided data and create worksheets and dashboards.
+To address these issues, I implemented parameterized SQL queries to prevent SQL injection, input validation and output encoding to mitigate XSS attacks, and secure password hashing to protect user credentials. I also implemented authentication and role-based access control (RBAC) to ensure that users can only access resources and operations permitted by their roles.
 
-The GitHub repository contains the SQL database schema, stored procedures, ER diagram, MySQL Workbench model, Python scripts, Tableau workbook, and screenshots demonstrating the implementation and results.
+I used Microsoft Copilot to review the code, identify potential vulnerabilities, suggest secure coding practices, and generate security test cases. Copilot also helped me investigate debugging issues and improve error handling. I reviewed and tested its recommendations to verify that the fixes worked as expected.
+
+Finally, I performed security testing to verify input validation, authentication, authorization, SQL injection prevention, and XSS protection. These improvements strengthened SafeVault's security, reliability, and maintainability.
